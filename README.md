@@ -8,6 +8,8 @@
 Threat hunting with [Polars](https://github.com/pola-rs/polars) and [flaws.cloud](https://summitroute.com/blog/2020/10/09/public_dataset_of_cloudtrail_logs_from_flaws_cloud/) AWS CloudTrail datasets.
 Check out threat hunting notebook in [`nbviewer`](https://nbviewer.org/github/TracecatHQ/hunts/blob/main/notebooks/aws_flaws.ipynb) or rerun the hunt yourself in Jupyter lab.
 
+Normalized datasets and alerts can be found as `parquet` files in the `results` directory. You can load these for further exploration using your OLAP database of choice.
+
 ## Motivation
 
 Polars is a OLAP query engine written in Rust. It's highly memory efficient, uses Apache Arrow as its memory model, and consistently tops [database speed benchmarks](https://pola.rs/posts/benchmarks/) against distributed OLAP engines e.g. PySpark and Snowflake.
