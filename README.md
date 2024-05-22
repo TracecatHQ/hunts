@@ -1,10 +1,12 @@
-# Hunts
+# Threat Hunting with Polars
 
-[![Polars](https://img.shields.io/badge/polars-%23DDD6FE.svg?style=for-the-badge&logo=polars&logoColor=black)](https://github.com/pola-rs/polars)
-![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
-[![Discord](https://img.shields.io/discord/1212548097624903681.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/AqWkW8gJzM)
+[![Made with Jupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?logo=Jupyter)](https://jupyter.org/try)
+[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/TracecatHQ/hunts/blob/main/notebooks/aws_flaws.ipynb)
+[![Polars](https://img.shields.io/badge/polars-%23DDD6FE.svg?logo=polars&logoColor=black)](https://github.com/pola-rs/polars)
+[![Discord](https://img.shields.io/discord/1212548097624903681.svg?logo=discord&logoColor=white)](https://discord.gg/AqWkW8gJzM)
 
 Threat hunting with [Polars](https://github.com/pola-rs/polars) and [flaws.cloud](https://summitroute.com/blog/2020/10/09/public_dataset_of_cloudtrail_logs_from_flaws_cloud/) AWS CloudTrail datasets.
+Check out threat hunting notebook in [`nbviewer`](https://nbviewer.org/github/TracecatHQ/hunts/blob/main/notebooks/aws_flaws.ipynb) or rerun the hunt yourself in Jupyter lab.
 
 ## Motivation
 
