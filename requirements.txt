@@ -1,0 +1,5 @@
+polars==0.20
+orjson
+ray==2.22.0
+jupyterlab
+ipywidgets
